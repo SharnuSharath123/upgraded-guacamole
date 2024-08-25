@@ -1,0 +1,32 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upgraded Guacamole</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Upgraded Guacamole Recipes</h1>
+    </header>
+    <main>
+        <section id="recipe-form">
+            <h2>Add a New Recipe</h2>
+            <form id="add-recipe-form">
+                <label for="name">Recipe Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="ingredients">Ingredients:</label>
+                <textarea id="ingredients" name="ingredients" required></textarea>
+                <button type="submit">Add Recipe</button>
+            </form>
+        </section>
+        <section id="recipe-list">
+            <h2>Recipes</h2>
+            <ul id="recipes"></ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
